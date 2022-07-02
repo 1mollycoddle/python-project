@@ -9,7 +9,7 @@ message=str(input())
 
 date=re.findall(r"\bзавтра\b",message)
 
-task=re.findall("ть" or "ть" or "чь", message)
+task=(re.search(r'\w+(ть|чь)', message).group())
 
 if date!=0:
-    print(date, task)
+    print(date[0], task)
