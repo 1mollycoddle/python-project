@@ -12,4 +12,4 @@ date=re.findall(r"\bзавтра\b",message)
 task=(re.search(r'\w+(ть|чь)', message).group())
 
 if date!=0:
-    print(date[0], task)
+    print(date[0],task)
