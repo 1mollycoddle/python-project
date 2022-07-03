@@ -3,7 +3,6 @@ import datetime
 import time
 
 
-
 print("О чем мне вам напомнить?")
 message=str(input())
 
