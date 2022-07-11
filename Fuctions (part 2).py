@@ -127,6 +127,3 @@ def fib(n):
 index = int(input('Введите номер числа Фибоначчи: '))
 print(fib(index))
 
-#fibonacci
-print()
-print('fibonacci')
